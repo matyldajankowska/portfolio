@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Matylda Jankowska Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header>
+            <ul class="nav__links-main">
+                <li class="nav__links"><a href="#home">Home</a></li>
+                <li class="nav__links"><a href="#technologies">Technologies</a></li>
+                <li class="nav__links"><a href="#about">About me</a></li>
+                <li class="nav__links"><a href="#education">Education</a></li>
+                <li class="nav__links"><a href="#portfolio">Portfolio</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#technologies" class="nav__link">Technologies</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, my name is <strong>Matylda Jankowska</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">FRONT-END DEV</p>
+            <img src="images/matylda.jpg" alt="main picture" class="intro__img">
+        </section>
+        
+        <section class="my-technologies" id="technologies">
+            <h2 class="section__title section__title--technologies">My skills</h2>
+                <div class="technologies">
+                    <div class="technology">
+                        <h3>Html</h3>
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="technology">
+                        <h3>CSS</h3>
+                        <i class="fab fa-css3"></i>
+                    </div>
+                    <div class="technology">
+                        <h3>Node.js</h3>
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <div class="technology">
+                        <h3>JavaScript</h3>
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <div class="technology">
+                        <h3>React</h3>
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="technology">
+                        <h3>Node.js</h3>
+                        <i class="fab fa-node-js"></i>
+                    </div> 
+                </div>
+            </div> 
+        </section>
+        
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about"></h2>
+           <p class="section__subtitle section__subtitle--about">Who I am?</p>
+           
+           <div class="about-me__body">
+               <p>After working for years in hospitality, focusing on delivering the best possible
+                service to customers, finally switching to the main field of interest over the last
+                years - Web Development. </p> 
+                <p>Having graduated from highschool majoring in math and IT and later attending 
+                Warsaw Military University of Technology, I am passionate about coding, willing to learn and
+                grow in the industry. What I love most is problem solving - that is why I believe I would be a great developer.</p>
+           </div>
+           
+           <img src="images/img1.jpg" alt="Jane leaning against a bus" class="about-me__img">
+        </section>
+        <section class="my-skills" id="education">
+            <h2 class="section__title section__title--skills">About</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3>Education</h3>
+                        <p>Master of Science at Military University of Technology in Warsaw</p>
+                        <p>Bachelor of Science at Military University of Technology in Warsaw</p>
+                        <p>V Highschool in Bielsko-Biała (Math and IT major)</p>
+                </div>
+                
+                <div class="skill">
+                    <h3>Courses</h3>
+                            <p>Front End career Path at Scrimba</p>
+                            <p>360 hours Frond End Bootcamp at Kodilla</p>
+                            <p>International Summer Course in Russian Language</p>
+                            <p>Cambridge Advanced English Certificate</p>
+                </div> 
+            </div> 
+            <div id="overlay">
+                <div id="modal">
+                    <img src="images/resume.jpg">
+                    <i class="far fa-window-close" id="close-modal"></i>
+                </div>
+            </div>
+            <a class="btn" id="open-modal">See my Resume</a>
+            <a class="btn" id="btn-mobile" href="resume.html">See my Resume</a>
+        </section>
+
+        <section class="my-work" id="portfolio">
+            <h2 class="section__title section__title--work">Some of my projects</h2>  
+            <div class="portfolio">
+                <a href="https://secretbeachphangan.com/">
+                    <h4>Secret Beach</h4>
+                    <p>Commercial</p>
+                    <img src="images/secret.jpg" alt="" class="portfolio__img">
+                </a>
+                <a href="https://pizzeria-matylda.herokuapp.com/" class="portfolio__item">
+                    <h4>Pizza Shop </h4>
+                    <p>Kodilla Course</p>
+                    <img src="images/pizza.jpg" alt="" class="portfolio__img">
+                </a>
+                <a href="https://travel-agency-kodilla.herokuapp.com/">
+                    <h4>Travel Agency</h4>
+                    <p>Kodilla Course</p>
+                    <img src="images/travel.jpg" alt="" class="portfolio__img">
+                </a>
+                <a href="http://learn-react123.herokuapp.com/" class="portfolio__item">
+                    <h4>React App </h4>
+                    <p>Kodilla Course</p>
+                    <img src="images/plan.jpg" alt="" class="portfolio__img">
+                </a>
+                <a href="ject-183688.kodilla.com" class="portfolio__item">
+                    <h4>Bootstrap Shop </h4>
+                    <p>Kodilla Course</p>
+                    <img src="images/clothes.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+        
+        <footer class="footer">
+            <a href="mailto:matylda.jankowska@hotmail.com" class="footer__link">matylda.jankowska@hotmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/matylda-jankowska-49572a1a9/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/matyldajankowska/">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="index.js"></script>
+        
+    </body>
+</html>
